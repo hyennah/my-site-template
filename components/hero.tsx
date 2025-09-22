@@ -37,15 +37,15 @@ export function Hero() {
   
   const defaultInfo = {
     greeting: "안녕하세요,",
-    name: "당신의 이름",
-    title: "프론트엔드 개발자",
-    description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
-    profileImage: "",
+    name: "윤혜인",
+    title: "3D 애니메이터",
+    description: "창의적인 아이디어로 캐릭터를 살아움직이게 합니다.",
+    profileImage: "/uploads/hero-profile-1758525627652.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
-    projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"","opacity":0.1}
+    projectButton: "Demoreel",
+    background: {"image":"","video":"","color":"#6d8ed0","opacity":0.1}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
